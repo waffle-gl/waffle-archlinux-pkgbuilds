@@ -1,0 +1,9 @@
+Arch Linux PKGBUILD files for Waffle
+====================================
+
+This repository contains the sources for the Waffle packages in the AUR (Arch
+Linux User Repository).
+
+AUR package pages:
+  * [waffle|https://aur.archlinux.org/packages/waffle/]
+  * [waffle-git|https://aur.archlinux.org/packages/waffle-git/]
