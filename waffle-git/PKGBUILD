@@ -13,7 +13,6 @@ depends=('libx11' 'libxcb' 'wayland' 'libxslt' 'docbook-xsl')
 makedepends=('git' 'cmake' 'xcb-proto' 'libegl' 'libgbm' 'libgl')
 provides=("${pkgname%-git}" "$pkgname")
 conflicts=("${pkgname%-git}")
-replaces=('waffle')
 backup=()
 options=()
 install=
