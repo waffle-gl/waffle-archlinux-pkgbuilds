@@ -3,4 +3,5 @@ pkg/
 waffle/
 
 *.xz
+*.gz
 *.sig
