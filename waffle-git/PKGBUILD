@@ -48,6 +48,8 @@ check() {
 }
 
 package() {
+	optdepends=('libegl: for x11_egl, gbm or wayland support' 'libgbm: for gbm support')
+
 	cd "$srcdir/${pkgname%-git}"
 
 	make DESTDIR="$pkgdir/" install

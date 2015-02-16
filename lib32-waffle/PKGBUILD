@@ -37,6 +37,8 @@ build() {
 }
 
 package() {
+	optdepends=('lib32-libegl: for x11_egl, gbm or wayland support' 'lib32-libgbm: for gbm support')
+
 	cd "$srcdir/${_pkgbasename}-$pkgver"
 	make DESTDIR="$pkgdir/" install
 
