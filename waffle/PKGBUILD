@@ -9,8 +9,8 @@ arch=('i686' 'x86_64')
 url='http://www.waffle-gl.org'
 license=('BSD')
 
-depends=('libx11' 'libxcb' 'wayland' 'libxslt' 'docbook-xsl')
-makedepends=('cmake' 'xcb-proto' 'libegl' 'libgbm' 'libgl')
+depends=('libx11' 'libxcb' 'wayland')
+makedepends=('cmake' 'xcb-proto' 'libegl' 'libgbm' 'libgl' 'libxslt' 'docbook-xsl')
 
 source=("https://github.com/waffle-gl/waffle/archive/v$pkgver.tar.gz")
 sha256sums=('1cc8e63b47bc2273eeab3d82bc804953adae70beceb59839612ecedc4ea3cd59')
