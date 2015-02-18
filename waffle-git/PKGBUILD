@@ -1,9 +1,11 @@
 # Maintainer: Ben Widawsky <ben@bwidawsk.net>
 # Contributor: Chris Forbes <chad.versace@intel.com>
 # Contributor: Chad Versace <chrisf@ijw.co.nz>
+# Contributor: Emil Velikov <emil.l.velikov@gmail.com>
+
 
 pkgname=waffle-git
-pkgver=20150205
+pkgver=20150217
 pkgrel=2
 pkgdesc="a library for choosing window system and OpenGL API at runtime (git version)"
 arch=('i686' 'x86_64')
